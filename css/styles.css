@@ -1,0 +1,80 @@
+body {
+    font-family: 'Times New Roman', serif; /* Fonte Times New Roman para todo o site */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #f8f9fa; /* Cinza claro */
+    z-index: 1000; /* Garante que a navbar fique sobre o conteúdo */
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar-brand img {
+    width: 100px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #0263B2; /* Azul para links da navbar */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #014f9b; /* Azul mais escuro ao passar o mouse */
+  }
+  
+  .navbar-nav .dropdown-menu {
+    background-color: #f8f9fa; /* Cor de fundo do dropdown */
+  }
+  
+  .navbar-nav .dropdown-item {
+    color: #0263B2; /* Azul para itens do dropdown */
+  }
+  
+  .navbar-nav .dropdown-item:hover {
+    color: #014f9b; /* Azul mais escuro ao passar o mouse */
+  }
+  
+  footer {
+    background-color: #f8f9fa; /* Cinza claro */
+    color: #0263B2; /* Azul para o texto do footer */
+  }
+  
+  footer h5, footer a {
+    color: #0263B2; /* Azul para títulos e links no footer */
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-primary {
+    background-color: #0263B2;
+    border-color: #0263B2;
+  }
+  
+  .btn-primary:hover {
+    background-color: #014f9b;
+    border-color: #014f9b;
+  }
+  
+  .btn-secondary {
+    background-color: #C28E29;
+    border-color: #C28E29;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #a07b1f;
+    border-color: #a07b1f;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* Todos os títulos em negrito */
+  }
+  
+  /* Ajusta o padding superior do conteúdo para compensar a altura da navbar fixa */
+  body {
+    padding-top: 80px; /* Ajuste conforme a altura da navbar */
+  }
+  
