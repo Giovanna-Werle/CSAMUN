@@ -3,17 +3,23 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+  /*Nav Bar*/
+  .navbar-nav .nav-link {
+    font-size: 1.5rem; 
+    margin-left: 1rem;
+    font-weight: bold;
+    
+  }
   .navbar {
     background-color: #f8f9fa; /* Cinza claro */
-    z-index: 1000; /* Garante que a navbar fique sobre o conteúdo */
+    z-index: 1000; /*  navbar fixa*/
     position: fixed;
     top: 0;
     width: 100%;
   }
   
   .navbar-brand img {
-    width: 100px;
+    width: 130px;
   }
   
   .navbar-nav .nav-link {
@@ -25,7 +31,7 @@ body {
   }
   
   .navbar-nav .dropdown-menu {
-    background-color: #f8f9fa; /* Cor de fundo do dropdown */
+    background-color: hsl(210, 17%, 98%); /* Cor de fundo do dropdown */
   }
   
   .navbar-nav .dropdown-item {
@@ -35,7 +41,12 @@ body {
   .navbar-nav .dropdown-item:hover {
     color: #014f9b; /* Azul mais escuro ao passar o mouse */
   }
+  /* Ajusta o padding superior do conteúdo para compensar a altura da navbar fixa */
+  body {
+    padding-top: 80px; /* Ajuste conforme a altura da navbar */
+  }
   
+  /*Footer*/
   footer {
     background-color: #f8f9fa; /* Cinza claro */
     color: #0263B2; /* Azul para o texto do footer */
@@ -73,10 +84,6 @@ body {
     font-weight: bold; /* Todos os títulos em negrito */
   }
   
-  /* Ajusta o padding superior do conteúdo para compensar a altura da navbar fixa */
-  body {
-    padding-top: 80px; /* Ajuste conforme a altura da navbar */
-  }
   body {
     color: #000;
   }
@@ -181,4 +188,57 @@ body {
     .accordion-button:not(.collapsed) .accordion-icon::before {
       content: "-";
     }
-   
+      .text-intro{
+        text-align: justify;
+        font-size: 1.25rem;
+      }
+    .destaque{
+      font-weight: bold;
+      color: #014f9b;
+    }
+    /*position Paper*/
+    body {
+      color: #014f9b;
+    }
+    .custom-button {
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      margin: 10px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .btn-bom {
+      background-color: #014f9b;
+      color: white;
+    }
+    .btn-bom:hover {
+      background-color: #003a7d;
+    }
+    .btn-ruim {
+      background-color: #C28E29;
+      color: white;
+    }
+    .btn-ruim:hover {
+      background-color: #a07e1c;
+    }
+    /*material de apoio*/
+    .botao central{
+      align-content: center;
+    }
+    .destaqueamarelo{
+        font-weight: bold;
+        color: #a07b1f;
+    }
+    .amarelo{
+      color: #a07b1f;
+  }
+    .espacamento{
+      margin-bottom: 40px;
+    }
+    
+/*Index*/
+.tamanho{
+  font-size: 1.25rem;
+  text-justify: distribute-all-lines;
+}
+  
