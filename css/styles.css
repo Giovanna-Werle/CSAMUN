@@ -1,18 +1,18 @@
 body {
-    font-family: 'Times New Roman', serif; /* Fonte Times New Roman para todo o site */
+    font-family: 'Times New Roman', serif; 
     margin: 0;
     padding: 0;
   }
   /*Nav Bar*/
   .navbar-nav .nav-link {
     font-size: 1.5rem; 
-    margin-left: 1rem;
+    margin-left: 2rem;
     font-weight: bold;
     
   }
   .navbar {
-    background-color: #f8f9fa; /* Cinza claro */
-    z-index: 1000; /*  navbar fixa*/
+    background-color: #f8f9fa; 
+    z-index: 1000; 
     position: fixed;
     top: 0;
     width: 100%;
@@ -23,37 +23,37 @@ body {
   }
   
   .navbar-nav .nav-link {
-    color: #0263B2; /* Azul para links da navbar */
+    color: #0263B2; 
   }
   
   .navbar-nav .nav-link:hover {
-    color: #014f9b; /* Azul mais escuro ao passar o mouse */
+    color: #014f9b;
   }
   
   .navbar-nav .dropdown-menu {
-    background-color: hsl(210, 17%, 98%); /* Cor de fundo do dropdown */
+    background-color: hsl(210, 17%, 98%); 
   }
   
   .navbar-nav .dropdown-item {
-    color: #0263B2; /* Azul para itens do dropdown */
+    color: #0263B2; 
   }
   
   .navbar-nav .dropdown-item:hover {
-    color: #014f9b; /* Azul mais escuro ao passar o mouse */
+    color: #014f9b; 
   }
-  /* Ajusta o padding superior do conteúdo para compensar a altura da navbar fixa */
+  
   body {
-    padding-top: 80px; /* Ajuste conforme a altura da navbar */
+    padding-top: 80px; 
   }
   
   /*Footer*/
   footer {
-    background-color: #f8f9fa; /* Cinza claro */
-    color: #0263B2; /* Azul para o texto do footer */
+    background-color: #f8f9fa;
+    color: #0263B2; 
   }
   
   footer h5, footer a {
-    color: #0263B2; /* Azul para títulos e links no footer */
+    color: #0263B2; 
   }
   
   footer a:hover {
@@ -80,9 +80,7 @@ body {
     border-color: #a07b1f;
   }
   
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: bold; /* Todos os títulos em negrito */
-  }
+  
   
   body {
     color: #000;
@@ -148,7 +146,7 @@ body {
       border: 3px solid white;
       display: inline-block;
       padding: 0.5rem 1rem;
-      text-align: center; /* Add this line */
+      text-align: center; 
     }
 
     h2 {
@@ -168,7 +166,7 @@ body {
       text-align: justify;
     }
     .card-body {
-      text-align: justify; /* Add this line */
+      text-align: justify; 
     }
 
     .section-divider {
@@ -198,10 +196,10 @@ body {
     }
     /*position Paper*/
     body {
-      color: #014f9b;
+      color: #000000;
     }
     .custom-button {
-      padding: 15px 30px;
+      padding: 15px 50px;
       font-size: 1.2rem;
       margin: 10px;
       border-radius: 5px;
@@ -239,6 +237,67 @@ body {
 /*Index*/
 .tamanho{
   font-size: 1.25rem;
-  text-justify: distribute-all-lines;
+  text-align: justify;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
+.carta{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+  .destaqueitalico{
+    font-style: italic;
+    font-weight: bold;
+  }
+  .infosconferencia{
+    font-weight: lighter;
+    text-align: center;
+  }
+  /*Animação*/
+  .animate__animated {
+    visibility: hidden;
+  }
+  .animate__fadeInDown {
+    --animate-duration: 0.75s;
+  }
+/*Patrocinadores*/
+  .custom-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-left: 50px; 
+  }
+  .pcontainer {
+    text-align: center;
+  }
+  .titulonegrito{
+    font-weight: bold;
+    color: #0263B2;
+
+  }
+  .azul{
+    color: #0263B2;
+  }
+  /* material d apoio*/
+  .custom-button-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .custom-button-size {
+    padding: 10px 20px; 
+    font-size: 1.2rem; 
+    white-space: nowrap; 
+  }
+  
+  @media (min-width: 768px) {
+    .custom-button-container {
+      margin-left: 20px; 
+      margin-right: 20px; 
+    }
+  }
+  
+  .gap-2 {
+    gap: px; 
+  }
   
